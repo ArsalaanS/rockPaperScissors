@@ -1,0 +1,68 @@
+/* Colors: 
+#90a3b4	(144,163,180)
+#567d9c	(86,125,156)
+#0f4162	(15,65,98)
+#09273a	(9,39,58)
+#1c2641	(28,38,65) */
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+
+body {
+    font-family: "Silkscreen", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #09273a;
+}
+
+.container {
+    background-color: #90a3b4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    width: 900px;
+    height: 900px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+
+}
+  
+  h1 {
+    margin-top: 0;
+    font-size: 75px;
+  }
+  
+  #result {
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  
+  #score {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 80px;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+  }
+  
+  .button-image {
+    width: 320px;
+    cursor: pointer;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .button-image:hover {
+    transform: scale(1.1); 
+  }
+  
